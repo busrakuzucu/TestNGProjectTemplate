@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+
+    <test name="Test1">
+        <parameter name="browserTipi" value="chrome"></parameter>
+        <parameter name="browserTipi" value="edge"></parameter>
+
+        <classes>
+
+            <class name="Proje">
+                <methods>
+                    <include name="Test4"></include>
+                </methods>
+            </class>
+
+
+        </classes>
+
+    </test>
+
+
+</suite>
